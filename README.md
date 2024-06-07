@@ -26,7 +26,7 @@ This project implements backend APIs for Stripe Payment Gateway integration. It 
     ```
     STRIPE_PUBLIC_KEY=your-stripe-public-key
     STRIPE_SECRET_KEY=your-stripe-secret-key
-    PORT=3000  # Set your desired port
+    PORT=8000  # Set your desired port
     ```
 
 ## Usage
