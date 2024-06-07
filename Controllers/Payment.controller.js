@@ -55,6 +55,7 @@ const createPaymentIntent = async (req, res, next) => {
   }
 };
 
+//Capture Payment Id
 const capturePaymentIntentById = async (req, res, next) => {
     try {
         const { id } = req.params;
@@ -86,7 +87,7 @@ const capturePaymentIntentById = async (req, res, next) => {
 const createRefund = async (req, res, next) => {
     try {
         const { id } = req.params;
-        
+
         // Creating a Refund using payment intent id
         const refund = await stripe.refunds.create({ payment_intent: id });    
     
