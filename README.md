@@ -52,6 +52,9 @@ Run unit tests:
 npm test
 ```
 
+##Swagger
+https://portone.onrender.com/api-docs
+
 ## Postman Link
 
 https://www.postman.com/telecoms-specialist-23382147/workspace/kiran-public-workplace-postman/collection/25625653-630ba5d6-1357-4c8a-9f9c-a75e42a7ffdd?action=share&creator=25625653
