@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://portone.onrender.com' + '/api/v1',
+        url: 'https://portone.onrender.com/api/v1',
       },
     ],
   },
