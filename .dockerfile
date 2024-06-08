@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8000
 
 # Command to run the application
-CMD ["nodemon", "index.cjs"]
+CMD ["node", "index.cjs"]

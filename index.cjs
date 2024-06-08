@@ -11,6 +11,14 @@ var cors = require('cors');
 const { paymentRouter } = require("./Routes/Payment.routes");
 app.use(cors())
 
+
+// Import Swagger dependencies
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./swaggerConfig');
+
+// Serve Swagger docs
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 app.get("/",(req,res)=>{
     res.send("HOME PAGE")
 })
