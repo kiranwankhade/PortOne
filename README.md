@@ -52,7 +52,13 @@ Run unit tests:
 npm test
 ```
 
-##Swagger
+## Deployed Link
+ https://portone.onrender.com
+
+## Test the Endpoints
+ https://portone.onrender.com/api/v1
+
+## Swagger
 https://portone.onrender.com/api-docs
 
 ## Postman Link
